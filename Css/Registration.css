@@ -1,0 +1,90 @@
+.previewRegistr {
+    height: 600px;
+    width: 500px;
+    display: inline-flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #E2EDD4;
+}
+
+.previewRegistr button {
+    border: 1px solid #031E3A;
+    background-color: #E2EDD4;
+    border-radius: 10px;
+}
+
+.previewRegistr button:hover {
+    background-color: #3FD683;
+}
+
+.previewRegistr a:hover {
+    background-color: #3FD683;
+}
+
+.previewRegistr input,
+.Registr input {
+    width: 330px;
+    height: 60px;
+    margin-bottom: 30px;
+    background-color: #E2EDD4;
+    border: 1px solid #031E3A;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.Registr {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    height: 400px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.TelefoneLogin {
+    width: 330px;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+
+.TelefoneLogin select {
+    width: 73px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #E2EDD4;
+    border: 1px solid #031E3A;
+    text-align: center;
+    font-size: 16px;
+}
+
+.title-text {
+    margin-bottom: 80px;
+    width: 400px;
+    text-align: center
+}
+
+.TelefoneLogin input {
+    width: 226px;
+}
+
+.Registr h3 {
+    padding: 10px;
+
+}
+
+.Registr a {
+    display: inline-flex;
+    width: 330px;
+    border-radius: 10px;
+    border: 1px solid #031E3A;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}

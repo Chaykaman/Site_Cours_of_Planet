@@ -1,0 +1,166 @@
+.News {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    min-height: 100vh; /* Обеспечиваем, чтобы блок занимал весь экран */
+    width: 100%;
+    height: 1000px;
+    margin-bottom: 30px;
+    padding-bottom: 50px; /* Добавляем отступ снизу */
+}
+
+.News h1 {
+    margin-bottom: 30px;
+    text-shadow: 2px 2px #E2EDD4;
+}
+
+.Newsblock {
+    width: 100%;
+    height: 850px;
+    display: inline-flex;
+    flex-flow: row nowrap;
+}
+
+.PreviewNews {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    flex-wrap: wrap;
+    width: 870px;
+    height: 850px;
+}
+
+.SingleNews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height:300px; /* Увеличена высота для добавления нового контента */
+    margin-right: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 30px;
+}
+
+.SingleNews a{
+display: flex;
+justify-content: space-around;
+}
+
+.SingleNews:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.SingleNews img {
+    width: 100%;
+    height: 120px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.SingleNews h2 {
+    width: 90%;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 5px;
+    line-height: 1.3;
+}
+
+.news-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555555;
+}
+
+.news-date {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.news-author {
+    color: #031E3A;
+}
+
+/* Ссылка оборачивает весь контент */
+.SingleNews a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.NewFilter {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    align-items: start;
+    justify-content: space-around;
+    width: 270px;
+    height: 470px;
+}
+
+.NewFilter h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.NewFilter input {
+    width: 220px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.0);
+    border-radius: 10px;
+    border: 1px solid #031E3A;
+    padding: 10px;
+}
+
+.singleTagsFilter {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    width: 100%;
+}
+
+.singleTagsFilter h3{
+    margin-right: 20px;
+    padding: 5px;
+}
+
+.TagsFilter {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    height: 260px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.eventTag{
+    border: 1px solid #031E3A;
+    border-radius: 10px;
+}
+
+.PagesNews{
+    display: inline-flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Добавляем отступ сверху */
+    margin-bottom: 30px; /* Добавляем отступ снизу */
+}
+
+.PagesNews a,
+.PagesNews span{
+    display: flex;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #031E3A;
+    align-items: center;
+}

@@ -1,0 +1,180 @@
+/* Основной блок новости */
+.SingleNews {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    height: auto;
+    /* Высота подстраивается под содержимое */
+    padding-bottom: 20px;
+    /* Отступ от футера */
+    overflow: hidden;
+    /* Прячем лишнее содержимое */
+}
+
+/* Блок контента новости */
+.BlockNews {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    margin-right: 30px;
+    width: 870px;
+    height: auto;
+    /* Авто-высота */
+    overflow: hidden;
+    /* Прячем переполнение */
+}
+
+/* Метаданные статьи */
+.news-meta {
+    margin-top: 20px;
+    /* Отступ от контента */
+    padding-bottom: 20px;
+    /* Отступ от нижнего края */
+    color: #031E3A;
+}
+
+/* Заголовок статьи */
+.BlockNews h1 {
+    margin-bottom: 30px;
+}
+
+/* Текст статьи */
+.BlockNews article {
+    margin-bottom: 20px;
+}
+
+.BlockNews article p {
+    margin-bottom: 20px;
+    /* Отступ между абзацами */
+    line-height: 1.6;
+    /* Читаемость текста */
+}
+
+/* Изображение статьи */
+.BlockNews img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+
+}
+
+/* Ссылки для категорий и тегов */
+.news-meta h3 a,
+/* Ссылки категорий */
+.news-meta h3 span {
+    /* Текст тегов без ссылок */
+    color: #031E3A;
+    /* Цвет текста */
+    text-decoration: none;
+    /* Убираем подчеркивание */
+    font-weight: bold;
+    /* Жирный текст */
+}
+
+/* Состояние наведения на ссылки */
+.news-meta h3 a:hover {
+    color: #042F5B;
+    /* Светлый цвет при наведении */
+}
+
+/* Блок фильтров */
+.NewFilter {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    align-items: start;
+    justify-content: space-around;
+    width: 270px;
+    height: 470px;
+}
+
+/* Заголовок фильтра */
+.NewFilter h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Поле поиска */
+.NewFilter input {
+    width: 220px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.0);
+    border-radius: 10px;
+    border: 1px solid #031E3A;
+    padding: 10px;
+}
+
+/* Фильтр категорий */
+.singleTagsFilter {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    width: 100%;
+}
+
+.singleTagsFilter h3 {
+    margin-right: 20px;
+    padding: 5px;
+}
+
+/* Список фильтров */
+.TagsFilter {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    height: 260px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* Метка количества постов в категории */
+.eventTag {
+    border: 1px solid #031E3A;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/* Пагинация */
+.PagesNews {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.PagesNews h2 {
+    margin-right: 20px;
+}
+
+.permalink-news {
+    display: inline-flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.permalink-news a {
+    padding: 10px;
+    border-radius: 10px;
+    height: 40px;
+    width: none;
+    font-weight: normal;
+}
+
+/* Стили кнопки для отправки статуса */
+.status-submit-btn {
+    background-color: #5CDB95;
+    color: #042F5B;
+    border: 1px solid #031E3A;
+    border-radius: 10px;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.status-submit-btn:hover {
+    background-color: #E2EDD4;
+    color: #031E3A;
+}

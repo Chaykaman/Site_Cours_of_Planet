@@ -1,0 +1,45 @@
+.contacts h1,
+.contacts h3{
+margin-bottom: 30px;
+}
+
+.contacts h3{
+    width: 600px;
+}
+
+.contacts{
+    width: 100%;
+    height: 600px;
+}
+
+.Numbers{
+    display: inline-flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+.NumbersMoscowRussian{
+    width: 550px;
+    height: 190px;
+    background-color: #E2EDD4;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.EmailContacts{
+    width: 100%;
+    height: 200px;
+    background-color: #E2EDD4;
+    display: inline-flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}

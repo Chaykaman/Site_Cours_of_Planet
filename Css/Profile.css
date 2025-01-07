@@ -1,0 +1,262 @@
+.profileMain {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    height: 600px;
+}
+
+.BarPorfile,
+.FotoAndNick {
+    display: inline-flex;
+    flex-flow: column nowrap;
+}
+
+.BarPorfile {
+    justify-content: space-around;
+    align-items: center;
+    width: 270px;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid #E2EDD4;
+    margin-right: 30px;
+}
+
+.BarPorfile nav {
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    flex-flow: column nowrap;
+}
+
+.BarPorfile li {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.BarPorfile a {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.BarPorfile a:hover {
+    background-color: #E2EDD4;
+}
+
+.BarPorfile ul {
+    width: 100%;
+    display: inline-flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.FotoAndNick {
+    justify-content: center;
+    width: 100%;
+    height: 160px;
+    align-items: center;
+    background-color: #E2EDD4;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.FotoAndNick img {
+    height: 90px;
+    width: 90px;
+}
+
+.ContentProfile {
+    width: 870px;
+    height: 100%;
+    background-color: #E2EDD4;
+    border-radius: 10px;
+    display: inline-flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+}
+
+.ContentProfile a {
+    font-weight: normal;
+    text-decoration: underline;
+ text-align: center;
+}
+
+.ContentProfile table {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    width: 90%;
+    align-items: center;
+    border: 1px solid #cdd6c0;
+    border-radius: 10px 10px 0 0;
+}
+
+
+.ContentProfile thead {
+    background-color: #cdd6c0;
+    border-radius: 10px 10px 0 0;
+}
+
+.ContentProfile thead,
+.ContentProfile tbody {
+    width: 100%;
+}
+
+.ContentProfile th {
+    display: inline-flex;
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.ContentProfile thead tr:hover{
+    transform: scale(1);
+}
+
+.ContentProfile td{
+    display: inline-flex;
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ContentProfile tr {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 50px;
+    transition: transform 0.3s
+}
+
+.ContentProfile tr:hover{
+    transform: scale(1.1);
+
+}
+
+.ContentProfile button {
+    display: inline-flex;
+    align-items: center;
+    width: 80%;
+    height: 60px;
+    background-color: #E2EDD4;
+    border: 1px solid #031E3A;
+    border-radius: 10px;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ContentProfile h2 {
+    margin: 10px 0 0 10px;
+}
+
+.Search-Cours {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    align-items: center;
+    height: 60px;
+    justify-content: end;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.Search-Cours input {
+    width: 235px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid #031E3A;
+    margin-right: 30px;
+}
+
+.Search-Cours h3 {
+    margin-right: 20px;
+}
+
+.ChangeFoto {
+    width: 100%;
+    height: 178px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ChangeFoto img {
+    height: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+.ContentProfile input {
+    height: 60px;
+    width: 80%;
+    border: 1px solid #031E3A;
+    border-radius: 10px;
+    background-color: #E2EDD4;
+    padding: 10px;
+}
+
+.saveicon {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+
+
+.colovrat {
+    height: 200px;
+    width: 200px;
+    transition: 0.8s;
+}
+
+.ContentProfile img:hover {
+    transform: rotate(360deg);
+}
+
+.settings-profile {
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Button-table {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Button-table button {
+    height: 40px;
+    width: 50px;
+    margin: 0;
+    border: none;
+    border-radius: 10px;
+    background-color: #cdd6c0;
+    cursor: pointer;
+}
+
+.Button-table img {
+    width: 30px;
+    height: 30px;
+}
+
+.Button-table a {
+    width: 40px;
+    height: 40px;
+    margin-right: 30px;
+    
+}

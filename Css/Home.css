@@ -1,0 +1,370 @@
+.HomePage {
+    display: inline-flex;
+    width: 1170px;
+}
+
+.titleHome {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    width: 1170px;
+    height: 700px;
+    margin-bottom: 60px;
+}
+
+.previewCours {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    width: 670;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+.previewCours h1{
+    text-shadow: 2px 2px #E2EDD4;
+}
+
+.previewCours h3 {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #031E3A;
+}
+
+.previewCours a {
+    border-radius: 10px;
+}
+
+.previewCours h3:hover {
+    background-color: #E2EDD4;
+}
+
+.canvas-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.previewCours canvas {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    border-radius: 50%;
+}
+
+
+.previewRegistr {
+    height: 700px;
+    width: 100%;
+    display: inline-flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #E2EDD4;
+    border-radius: 10px;
+}
+
+.previewRegistr a:hover {
+    background-color: #3FD683;
+}
+
+.title-text {
+    margin-bottom: 80px;
+    width: 400px;
+    text-align: center;
+}
+
+.previewRegistr input,
+.Registr input {
+    width: 330px;
+    height: 60px;
+    margin-bottom: 30px;
+    background-color: #E2EDD4;
+    border: 1px solid #031E3A;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    caret-color: #031E3A;
+}
+
+.Registr {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    height: 400px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.TelefoneLogin {
+    width: 350px;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+
+.TelefoneLogin select {
+    width: 90px;
+    height: 82px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #E2EDD4;
+    border: 1px solid #031E3A;
+    text-align: center;
+    font-size: 16px;
+}
+
+.TelefoneLogin input {
+    width: 226px;
+}
+
+.Registr h3 {
+    padding: 10px;
+
+}
+
+.Registr a {
+    display: inline-flex;
+    width: 330px;
+    border-radius: 10px;
+    border: 1px solid #031E3A;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.CoursHome {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    height: 1000px;
+    margin-bottom: 120px;
+}
+
+.CoursHome h1 {
+    margin-bottom: 30px;
+}
+
+.NewCours {
+    display: inline-flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.SiglnePreviewCours {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: start;
+    height: 420px;
+    width: 270px;
+    padding: 10px;
+    background-color: #E2EDD4;
+    border-radius: 10px;
+    position: relative;
+    padding-bottom: 50px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.SiglnePreviewCours h3 {
+    width: 207px;
+    height: 80px;
+}
+
+.SiglnePreviewCours img {
+    width: 228px;
+    height: 180px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.SiglnePreviewCours a {
+    display: flex;
+    width: 130px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid #031E3A;
+    background-color: #E2EDD4;
+    position: absolute;
+    bottom: -15px;
+}
+
+.titleSingleCours {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    height: 120px;
+}
+
+.SiglnePreviewCours a:hover {
+    background-color: #3FD683;
+}
+
+.NewsHome {
+    height: 550px;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.NewsHome h1 {
+    margin-bottom: 30px;
+}
+
+.LastNews {
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    flex-flow: row nowrap;
+}
+
+.SingelNew {
+    width: 370px;
+    height: 400px;
+    display: inline-flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.SingelNew img {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.SingelNew:hover {
+    opacity: 50%;
+}
+
+
+
+.NameAndAvtor,
+.NewsTag {
+    margin-left: 20px;
+}
+
+.NewsTag {
+    margin-top: 10px;
+}
+
+.NewsTag h3 {
+    border: 1px solid #031E3A;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #E2EDD4;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Анимация пульсации */
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+
+    50% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+}
+
+/* Анимация плавного движения */
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Звезды */
+.star {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.8;
+    animation: pulse 2s infinite ease-in-out;
+}
+
+/* Размеры и позиции звезд */
+.star-1 {
+    background: radial-gradient(circle at 30% 30%, #d90d0d, #180ba4);
+    width: 20px;
+    height: 20px;
+    top: 80px;
+    left: 20%;
+    animation-delay: 0s;
+}
+
+.star-2 {
+    background: radial-gradient(circle at 30% 50%, #de1ae8, #ee710c);
+    width: 20px;
+    height: 20px;
+    top: 100px;
+    left: 40%;
+    animation-delay: 0.5s;
+}
+
+.star-3 {
+    background: radial-gradient(circle at 50% 30%, #11e41f, #dc1f5e);
+    width: 35px;
+    height: 35px;
+    top: 150px;
+    left: 60%;
+    animation-delay: 1s;
+}
+
+.star-4 {
+    background: radial-gradient(circle at 30% 30%, hsl(187, 93%, 56%), #f31aa0);
+    width: 40px;
+    height: 40px;
+    top: 200px;
+    left: 80%;
+    animation-delay: 1.5s;
+}
+
+.star-5 {
+    background: radial-gradient(circle at 20% 30%, #f9f9f4, #0e0ba4, #d90d0d);
+    width: 45px;
+    height: 45px;
+    top: 70px;
+    left: 70%;
+    animation-delay: 2s;
+}
+
+/* Планета */
+.planet {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: radial-gradient(circle at 30% 30%, #5CDB95, #042F5B);
+    border-radius: 50%;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: float 4s infinite ease-in-out;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
